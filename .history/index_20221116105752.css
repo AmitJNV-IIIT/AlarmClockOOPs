@@ -1,0 +1,111 @@
+body{
+    background-color: #212121;
+    margin-top: 5%;
+    margin-left: 40%; 
+    font-family: 'Times New Roman', Times, serif;
+     margin-right: 40%;
+    /* align-items: center; */
+}
+
+.container{
+    align-content: center;
+    text-align: center;
+}
+
+.time-display{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: white;
+    width: 230px;
+    height: 10%;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    margin-left: 35px;
+
+}
+
+
+.timer{
+    width: 40px;
+    height: 40px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+#clock{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.alarm-heading{
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.set-alarm-field{
+    margin-top: -20px;
+    height: 40px;
+    /* background-color: yellowgreen; */
+    padding-top: 0px;
+}
+
+.controls button{
+    background-color: #466a99;
+    border-color: #466a99;
+    color: whitesmoke;
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight:500;
+}
+
+.controls button:hover{
+    background-color: #204b74;
+}
+
+#myList{
+    list-style-type: none;
+    
+}
+
+#myList li{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: #204b74;
+    height: 2rem;
+    margin-left: -30px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 10px;
+    width: 280px;
+    margin-bottom: 10px;
+
+}
+
+.time-list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.time-list span{
+    /* background-color: violet; */
+    width: 160px;
+    margin-right: 18px;
+    
+}
+
+.time-list button{
+    background-color: #5d759d;
+    border-color: #5d759d;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 22px;
+    color: whitesmoke;
+}
